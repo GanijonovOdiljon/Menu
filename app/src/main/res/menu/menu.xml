@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/OverFlome"
+        android:icon="@drawable/baseline_menu_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/Setting"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Settings"
+                app:showAsAction="never">
+                <menu>
+                    <item
+                        android:id="@+id/chiqish"
+                        android:icon="@drawable/baseline_rocket_24"
+                        android:title="TOZALOVCHI"
+                        app:showAsAction="never"/>
+                    <item
+                        android:id="@+id/akkaunt"
+                        android:icon="@drawable/baseline_person_pin_24"
+                        android:title="HISOB QO'SHISH"
+                        app:showAsAction="never"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/About"
+                android:title="ABOUT"
+                android:icon="@drawable/baseline_book_24"
+                app:showAsAction="never">
+                <menu>
+                    <item
+                        android:id="@+id/ilova"
+                        android:icon="@drawable/baseline_stay_primary_portrait_24"
+                        android:title="ILOVA HAQIDA"
+                        app:showAsAction="never"/>
+                    <item
+                        android:id="@+id/perezagruzka"
+                        android:icon="@drawable/baseline_update_24"
+                        android:title="O'CHIRIB YOQISH"
+                        app:showAsAction="never"/>
+                </menu>
+            </item>
+            <item
+                android:id="@+id/Exit"
+                android:title="EXIT"
+                app:showAsAction="never"
+                android:icon="@drawable/baseline_exit_to_app_24">
+                <menu>
+                    <item
+                        android:id="@+id/ochirish"
+                        android:icon="@drawable/baseline_rocket_24"
+                        android:title="O'CHIRIB CHIQISH"
+                        app:showAsAction="never"/>
+                    <item
+                        android:id="@+id/tark"
+                        android:icon="@drawable/baseline_person_pin_24"
+                        android:title="BUTUNLAY TARK ETISH"
+                        app:showAsAction="never"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>
